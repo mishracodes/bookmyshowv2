@@ -16,10 +16,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className='bg-stone-400'>
+      <main>
        <Header/>
-       <Crousal/>
-       <Dashboard/>
+       <div className='lg:max-w-7xl mx-auto'>
+        <Crousal/>
+        <Dashboard/>
+       </div>
        <Footer/>
       </main>
     </>
